@@ -19,7 +19,7 @@ mirar los episodios de dicha serie, saber cuales ha visto y tener las estadísti
 * Jecpack Navigation mediante NavGraph para el flujo de pantallas
 
 ## Instrucciones de uso
-* Clonar el repositorio: 
+* Clonar el repositorio: https://github.com/aroadonaire/RickYMorty
 * Configurar Firebase, es necesario añadir 'goole-services.json'
 * Ejecución, abrir Android Studio, sincronizar Gradle y ejecutar
 
