@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/episodesFragment">
+
+    <fragment
+        android:id="@+id/episodesFragment"
+        android:name="dam.pmdm.rickymorty.EpisodesFragment"
+        android:label="Episodios">
+
+        <action
+            android:id="@+id/action_episodesFragment_to_episodeDetailFragment"
+            app:destination="@id/episodeDetailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/episodeDetailFragment"
+        android:name="dam.pmdm.rickymorty.EpisodeDetailFragment"
+        android:label="Detalle episodio"/>
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="dam.pmdm.rickymorty.StatsFragment"
+        android:label="Estadísticas"/>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="dam.pmdm.rickymorty.SettingsFragment"
+        android:label="Ajustes"/>
+
+</navigation>
